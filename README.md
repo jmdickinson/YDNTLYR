@@ -2,17 +2,18 @@
 
 ## About
 
-YDNTLYR is a dumb thing by @jmdickinson. It tiles an image as the background of a web page. See it tile. Become mesmerized by gif motion.
+[YDNTLYR](http://youdontneedtoleaveyourroom.com/) is a dumb thing by [@jmdickinson](https://twitter.com/jmdickinson). It tiles an image as the background of a web page. See it tile. Become mesmerized by gif motion.
 
 ## How it Works
 
-1. Hit the base URL for a random image. 
-2. To share a certain image, click the link in the top right.
+1. Hit the base URL for a random image. Click the button to refresh and get a new one.
+2. To share an image, click the link in the top right.
 3. Alternatively, pass your favorite image by url variable:
 
 ```
-http://youdontneedtoleaveyourroom.com/?b=*IMGURL, NO http://*
+    http://youdontneedtoleaveyourroom.com/?b=IMGURL
 ```
+**Note:** IMGURL must have *http://* removed.
 
 ## Why I Made It
 
@@ -36,4 +37,4 @@ I will delete anything I deem too vulgar. Where that line is drawn depends on th
 
 ## Usage
 
-Questions, suggestions, or want to tell me your favorite? [Contact me](http://twitter.com/jmdickinson). Feel free to form this, if the spirit moves you. If you do something with this, let me know.
+Questions, suggestions, or want to tell me your favorite? [Contact me](http://justindickinson.com/). Feel free to form this, if the spirit moves you. If you do something with this, let me know.
