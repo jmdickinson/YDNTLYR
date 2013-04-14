@@ -35,4 +35,4 @@ I will delete anything I deem too vulgar. Where that line is drawn depends on th
 
 ## Usage
 
-Questions, suggestions, or want to tell me your favorite? [Contact me](http://justindickinson.com/). Feel free to form this, if the spirit moves you. If you do something with this, let me know.
+Questions, suggestions, or want to tell me your favorite? [Contact me](http://justindickinson.com/). Feel free to fork this, if the spirit moves you. If you do something with this, let me know.

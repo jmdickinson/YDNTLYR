@@ -61,6 +61,34 @@
             color: #fff;
         }
 
+        span.bookmarklet {
+            display: inline-block;
+            margin: 20px auto 0;
+        }
+
+        span.bookmarklet a {
+            display: inline-block;
+            padding: 5px 12px;
+            background: rgba(0,0,0,0.4);
+            border: 1px solid #000;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            font: 14px normal 'Helvetica', sans-serif;
+            text-decoration: none;
+            color: #fff;
+
+            -moz-transition: all 0.2s linear;
+            -ms-transition: all 0.2s linear;
+            -o-transition: all 0.2s linear;
+            -webkit-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+        }
+
+        span.bookmarklet a:hover {
+            background: rgba(0,0,0,0.8);
+        }
+
         .item {
           width: 19.5%;
           margin: 0.24%;
@@ -87,6 +115,11 @@
                 });
             });
         });
+
+        function(){
+            var b = window.location;
+            window.location = 'http://youdontneedtoleaveyourroom.com/?b=' + b;
+        }
     </script>
 
 </head>
@@ -108,8 +141,9 @@
             <a href="/all.php?show=50">50</a> |
             <a href="/all.php?show=25">25</a> |
             <a href="/all.php?show=10">10</a> |
-            <a href="/all.php?show=5">5</a>
+            <a href="/all.php?show=5">5</a> |
         </h3>
+        <span class="bookmarklet" title="Drag to bookmark bar. Only us on an image URL."><a href="javascript:(function(){var%20u=window.location.host+window.location.pathname;window.location='http://youdontneedtoleaveyourroom.com/?b='+u;})();">YDNTLYR</a></span>
     </div>
     <div id="container">
         <?
