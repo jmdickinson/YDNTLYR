@@ -25,6 +25,21 @@ What's better than a great image? A tiled background of that image. What's bette
 * The more [epic the image](http://youdontneedtoleaveyourroom.com/?i=55), the more of it you want to see.
 * For [everything else](http://youdontneedtoleaveyourroom.com/?i=65), it's just kind of cool.
 
+## What's the Name Mean?
+
+The name is a declaration of support for the hours we spend at our computers, totally engaged and entertained by what we find.
+
+It's also a quote from Franz Kafka that serves as the Prologue of the book *Still Life with Woodpecker* by Tom Robbins:
+
+> *You don’t need to leave your room.*
+> *Remain sitting at your table and listen.*
+> *Don’t even listen, simply wait.*
+> *Don’t even wait.*
+> *Be quite still and solitary.*
+> *The world will freely offer itself to you.*
+> *To be unmasked, it has no choice.*
+> *It will roll in ecstasy at your feet.*
+
 ## A Growing Library
 
 If you use option #3 above and provide your own image it gets added to the list so people visiting the main page have a chance to see it.
