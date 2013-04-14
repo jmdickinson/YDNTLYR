@@ -115,7 +115,7 @@
         <?
             foreach($imgs as $c => $img){
                 if($c < $perpage){
-                    $url = count($imgs) - $c;
+                    $url = count($imgs) - ($c+1);
                     echo '<div class="item"><a href="/?i='.$url.'"><img src="http://'.$img.'" alt=""></a></div>';
                 }
             }

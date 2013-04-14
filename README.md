@@ -11,21 +11,19 @@
 3. Alternatively, pass your favorite image by url variable:
 
 ```
-    http://youdontneedtoleaveyourroom.com/?b=IMGURL
+http://youdontneedtoleaveyourroom.com/?b=IMGURL
 ```
+
 **Note:** IMGURL must have *http://* removed.
 
 ## Why I Made It
 
 What's better than a great image? A tiled background of that image. What's better than sending a reaction GIF? Sending a page of that GIF tiled.
 
-Edges bleed together creating a [seamless background](http://youdontneedtoleaveyourroom.com/?i=73).
-
-Motion can create a [psychedelic undulation](http://youdontneedtoleaveyourroom.com/?i=76).
-
-The more [epic the image](http://youdontneedtoleaveyourroom.com/?i=56), the more of it you want to see.
-
-For [everything else](http://youdontneedtoleaveyourroom.com/?i=66), it's just kind of cool.
+* Edges bleed together creating a [seamless background](http://youdontneedtoleaveyourroom.com/?i=72).
+* Motion can create a [psychedelic undulation](http://youdontneedtoleaveyourroom.com/?i=75).
+* The more [epic the image](http://youdontneedtoleaveyourroom.com/?i=55), the more of it you want to see.
+* For [everything else](http://youdontneedtoleaveyourroom.com/?i=65), it's just kind of cool.
 
 ## A Growing Library
 
