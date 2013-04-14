@@ -1,17 +1,17 @@
 <?php
-    require_once "imgs.php";
+    //require_once "imgs.php";
 
     if (isset($_GET['b'])) {
-        $bg = 'http://' . $_GET['b'];
+        $bg = $_GET['b'];
         $alt = '#';
         $url = 'http://youdontneedtoleaveyourroom.com/?b='. $_GET['b'];
     } elseif (isset($_GET['i'])) {
-        $bg = 'http://stuff.justindickinson.com/random/' . $imgs[$_GET['i']];
+        $bg = $imgs[$_GET['i']];
         $alt = $_GET['i'];
         $url = 'http://youdontneedtoleaveyourroom.com/?i='. $_GET['i'];
     } else {
         $r = rand(0,count($imgs) - 1);
-        $bg = 'http://stuff.justindickinson.com/random/' . $imgs[$r];
+        $bg = $imgs[$r];
         $alt = $r;
         $url = 'http://youdontneedtoleaveyourroom.com/?i='. $r;
     }
@@ -37,10 +37,6 @@
     <![endif]-->
 
     <style type="text/css">
-        body {
-            background: transparent url('<?= $bg ?>') repeat 0 0;
-        }
-
         h1 {
             position: absolute;
             top: 20px;
@@ -82,6 +78,20 @@
             opacity: 0.3;
         }
     </style>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+        function getRandomInt (min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        $(document).ready(function(){
+            $.getJSON('imgs.php', function(data){
+                var i = getRandomInt(1,65);
+                $('body').css('background-image', 'url(http://'+data.images[i-1]+')');
+            });
+        });
+    </script>
 </head>
 
 <body>
