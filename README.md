@@ -1,7 +1,5 @@
 # You Don't Need to Leave Your Room
 
-## About
-
 [YDNTLYR](http://youdontneedtoleaveyourroom.com/) is a dumb thing by [@jmdickinson](https://twitter.com/jmdickinson). It tiles an image as the background of a web page. See it tile. Become mesmerized by gif motion.
 
 ## How it Works
@@ -31,14 +29,14 @@ The name is a declaration of support for the hours we spend at our computers, to
 
 It's also a quote from Franz Kafka that serves as the Prologue of the book *Still Life with Woodpecker* by Tom Robbins:
 
-> *You don’t need to leave your room.*
-> *Remain sitting at your table and listen.*
-> *Don’t even listen, simply wait.*
-> *Don’t even wait.*
-> *Be quite still and solitary.*
-> *The world will freely offer itself to you.*
-> *To be unmasked, it has no choice.*
-> *It will roll in ecstasy at your feet.*
+>  *You don't need to leave your room.*  
+>  *Remain sitting at your table and listen.*  
+>  *Don't even listen, simply wait.*  
+>  *Don't even wait.*  
+>  *Be quite still and solitary.*  
+>  *The world will freely offer itself to you.*  
+>  *To be unmasked, it has no choice.*  
+>  *It will roll in ecstasy at your feet.*
 
 ## A Growing Library
 
